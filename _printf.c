@@ -52,7 +52,15 @@ int _printf(const char *format, ...)
 	return (printed_chars);
 }
 
+<<<<<<< HEAD
 
+=======
+/**
+ * print_buffer - The function prints the contents of the buffer if it exist
+ * @buffer: Array of chars
+ * @buff_ind: Index at which to add next char, represents the length.
+ */
+>>>>>>> 6e8c36496eebe6e187e7b0a8e2bc2fe54cec5271
 void print_buffer(char buffer[], int *buff_ind)
 {
 	if (*buff_ind > 0)
